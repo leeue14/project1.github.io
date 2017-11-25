@@ -1,0 +1,203 @@
+.goodleftcontent {
+    background: #FFFFFF;
+    min-height: 1500px;
+}
+
+.goodtoparea {
+    background: #FFFFFF;
+    color: #666666;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.goodpagenav {
+    padding: 8px 15px;
+    border-radius: 4px;
+
+}
+
+.goodpagenav li, .pagegoodotherinfo span {
+    color: #999999;
+    padding: 2px 2px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+
+.lilast {
+    color: #666666;
+}
+
+/*商品信息*/
+.pagegoodinfoarea {
+    background-color: #FFFFFF;
+}
+
+.pagegoodinfoleft {
+    width: 248px;
+    height: 248px;
+    border: 1px solid #e7e7e7;
+    margin: 30px;
+    float: left;
+}
+
+.pagegoodinforight {
+    width: 500px;
+    height: 248px;
+    margin: 20px 0 20px 0;
+    border: none;
+    float: left;
+}
+
+.pagegoodinforight h1 {
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", "Helvetica Neue", Helvetica, tahoma, arial, Verdana, sans-serif, "WenQuanYi Micro Hei", "\5B8B\4F53";
+    color: #333;
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 15px;
+    min-height: 50px;
+    font-weight: normal;
+    border-bottom: 1px dashed #ddd;
+}
+
+.pagegoodinforight h1 span {
+    color: red;
+}
+
+.pagegoodotherinfo {
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 10px;
+    border-bottom: 1px dashed #ddd;
+}
+
+.pagegoodotherinfo span {
+    font-size: 12px;
+}
+
+.pagegoodotherinfoattr {
+    width: 165px;
+    float: left;
+    line-height: 25px;
+    color: #999999;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+.pagegoodotherinfoopt {
+    padding-top: 15px;
+    color: #333333;
+}
+
+.abtn {
+    box-sizing: border-box;
+    line-height: 42px;
+    color: #dd2727;
+    display: inline-block;
+    font-size: 16px;
+    border: 1px dashed #dd2727;
+    margin-right: 20px;
+    float: left;
+    margin-top: 20px;
+}
+
+.abtn span {
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-right: 1px dashed #dd2727;
+    width: 43px;
+}
+
+.abtn em {
+    display: inline-block;
+    text-align: center;
+    line-height: 42px;
+    padding: 0 10px;
+    font-style: normal;
+}
+
+.abtnlink {
+    text-align: center;
+    line-height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/*商品介绍开始*/
+.goodinfotabtitle {
+
+    margin: 0 0 0 20px;
+    margin-top: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabtitle {
+    border-bottom: 1px solid #df2727;
+    width: 120px;
+    color: #5d5d5d;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #df2727;
+    clear: both;
+}
+
+.tabdesctext {
+    margin: 10px 30px 10px 30px;
+    padding: 0 0 50px 0;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.tabdesctext p {
+    text-indent: 30px;
+    padding: 3px;
+}
+
+/*商品推荐开始*/
+.hotgoodcontent{
+    margin-top: 20px;
+    background-color: #ffffff;
+
+}
+.hothead{
+    height: 50px;
+    padding: 10px 0 0 10px;
+    line-height: 36px;
+    font-size: 16px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+.hotgoodcontent h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: #666666;
+}
+
+/*相关推荐*/
+.listitem{
+    margin: 0;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid #eee;
+    height: 70px;
+    background: url("../img/jiantou.png") no-repeat 97% center;
+    padding-left: 30px;
+    position: relative;
+    display: block;
+    padding: 10px 15px
+}
+.listgroup a:hover{
+    background-color: #f2f2f2;
+}
+.listgroup span{
+    line-height: 50px;
+    margin-left: 10px;
+    color: #666666;
+    font-size: 14px;
+}

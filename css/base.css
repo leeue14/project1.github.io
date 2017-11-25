@@ -1,0 +1,48 @@
+body{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+}
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix::after, .clearfix::before {
+    display: table;
+    content: '';
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+body a:hover, a:active{
+    text-decoration: none;
+
+}
+body a {
+    text-decoration: none;
+    color: #0e3312;
+}
+font{
+    font-family: 微软雅黑;
+}
+
+.textred{
+  color: red !important;
+}
+.textsblack{
+    color: #999;
+}
+body h2{
+
+}
+

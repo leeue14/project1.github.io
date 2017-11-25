@@ -1,0 +1,92 @@
+.top{
+  width: 100%;
+  height: 58px;
+  min-width: 1110px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.head{
+  width: 1100px;
+  height: 52px;
+  margin:  0 auto;
+}
+.log{
+  float: left;
+}
+
+.head .log .img{
+  background: transparent;
+}
+.head .headsearch {
+  line-height: 52px;
+  display: block;
+  width: 595px;
+  margin-top: 1px;
+  float: left;
+}
+.search_input{
+  height: 36px;
+  width: 530px;
+  border: 1px solid #dfdfdf;
+  padding: 1px 4px 1px 4px;
+  font-size: 14px;
+  color: #555;
+  float: left;
+  margin-top: 8px;
+
+  font-family: 微软雅黑,黑体,Arial;
+}
+
+.headsearchbotton{
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  background: url(//ofjnuh7z3.qnssl.com/clip.png?v=201510252211) no-repeat scroll 0px -213px;
+  width: 38px;
+  height: 38px;
+  margin-top: 8px;
+  line-height: 38px;
+  border-right: 1px solid #dfdfdf;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.headnav a{
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  font-size: 15px;
+}
+.headnav a:hover{
+  color: #888888;
+}
+.currentpage{
+  height: 55px;
+  font-weight: bold;
+  color: #888;
+}
+.pageitem {
+  display: inline-block;
+  line-height: 150%;
+  float: left;
+  margin-left: 11px;
+}
+.pageitemword{
+  color: #888888;
+  font-size: 25px;
+  display: inline-block;
+  float: left;
+  line-height: 150%;
+  margin: 17px 14px 14px 14px;
+}
+.inactivepage {
+  color: #bbb;
+  font-size: 25px;
+  display: inline-block;
+  float: left;
+  line-height: 150%;
+  margin: 17px 14px 14px 14px;
+}
+
+

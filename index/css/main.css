@@ -1,0 +1,616 @@
+.main {
+    width: 1100px;
+    height: 50px;
+    margin: 0 auto;
+    min-width: 1110px;
+}
+
+.centercontent {
+    float: left;
+    width: 839px;
+    margin-right: 18px;
+}
+
+.centernav {
+    height: 50px;
+    width: 839px;
+    background-color: #dd2727;
+    border-radius: 5px;
+
+}
+
+.centernav .tab-list-a a {
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+
+.icon1 {
+    background: url('../img/clip.png') no-repeat scroll -48px -129px;
+}
+
+.icon2 {
+    background: url(//ofjnuh7z3.qnssl.com/clip.png?v=201510252211) no-repeat scroll -68px -129px;
+}
+
+.icon3 {
+    background: url(//ofjnuh7z3.qnssl.com/clip.png?v=201510252211) no-repeat scroll -88px -129px;
+}
+
+.icon4 {
+    background: url(//ofjnuh7z3.qnssl.com/clip.png?v=201510252211) no-repeat scroll -108px -129px;
+}
+
+.darkbk {
+    border-radius: 5px;
+    background-color: rgb(193, 34, 34);
+}
+
+.dealheadicon {
+    display: inline-block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-left: 20px;
+    margin-right: 4px;
+    margin-top: 16px;
+    line-height: 150%;
+}
+
+.nav-item {
+    display: inline-block;
+    line-height: 150%;
+    float: left;
+    height: 50px;
+}
+
+.itemword {
+    font-size: 17px;
+    display: inline-block;
+    float: left;
+    line-height: 150%;
+    color: #ffffff;
+    height: 38px;
+    margin-right: 20px;
+    margin-top: 11px;
+}
+
+.dealheadtype {
+    display: block;
+    float: right;
+    width: 300px;
+    height: 50px;
+}
+
+.feedcount {
+    font-size: 12px;
+    display: inline-block;
+    float: right;
+    line-height: 150%;
+    color: #ffffff;
+    margin: 17px 27px 7px 20px;
+}
+
+/*
+类别的属性
+*/
+
+.center-good-select {
+    width: 839px;
+    display: block;
+    border-bottom: 1px solid #f2f2f2;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding-top: 7px;
+    padding-bottom: 17px;
+    float: left;
+}
+
+.type-select {
+    display: block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.typetitle {
+    display: block;
+    float: left;
+    margin-right: 8px;
+    padding: 2px 4px 2px 4px;
+}
+
+.typeword {
+    display: block;
+    float: left;
+    color: #55;
+    font-size: 14px;
+}
+
+.clickitem {
+    display: block;
+    float: left;
+    background-color: red;
+    margin-right: 8px;
+    padding: 2px 4px 2px 4px;
+}
+
+.type-itemword {
+    display: block;
+    float: left;
+    color: #ffffff;
+    font-size: 14px;
+
+}
+
+.unclick-type-itemword {
+    display: block;
+    float: left;
+    color: #555;
+    font-size: 14px;
+
+}
+
+.unclickitem {
+    display: block;
+    float: left;
+    margin-right: 8px;
+    padding: 2px 4px 2px 4px;
+
+}
+
+.center-good-select a:hover {
+
+    background-color: red;
+}
+
+/*
+商品列表开始
+*/
+.goodcontent {
+    width: 839px;
+    display: block;
+    float: left;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+
+}
+
+.showpic {
+    display: block;
+    float: left;
+    width: 140px;
+    height: 140px;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.withborder {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.goodinfoarea {
+    display: block;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.goodname {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    line-height: 1.5em;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.discount {
+    color: #e6360d;
+}
+
+.price {
+    color: #e60e51;
+}
+
+.gooddetail {
+    font-size: 14px;
+}
+
+.gotodetail {
+    font-size: 13px;
+    text-decoration: none;
+    color: #dd2727;
+}
+
+.good-list-font {
+    line-height: 50px;
+    font-size: 12px;
+    color: #666;
+}
+
+.rightlink {
+    display: block;
+    float: left;
+    font-size: 13px;
+    color: #a6a6a6;
+    overflow: hidden;
+    width: 145px;
+    margin-top: 60px;
+
+}
+
+.gotolink {
+    display: inline-block;
+    float: left;
+    background-color: #dd2727;
+    line-height: 260%;
+    margin-left: 15px;
+    width: 110px;
+    height: 35px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.resmall {
+    float: left;
+    margin-left: 25px;
+    margin-top: 7px;
+}
+
+.rightlink-btn a {
+    text-decoration: none;
+}
+
+.rightlink-btn a:hover {
+    background-color: #dd2727;
+}
+
+.gooditem :hover {
+    background-color: #f2f2f2;
+}
+
+.pagecontent {
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pagecontent a {
+    border: 1px solid #E8e8e8;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px 20px;
+    display: inline-block; /*让a标签有行内元素的功能也有块级元素的功能*/
+    color: #090909;
+}
+
+.pagenum {
+    border: 1px solid #E8e8e8;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px 20px;
+    display: inline-block; /*让a标签有行内元素的功能也有块级元素的功能*/
+    color: #090909;
+}
+
+.pagecontent a:link, .pagecontent a:visited {
+    color: #090909;
+
+}
+
+.pagecontent a:hover, .pagecontent a:active {
+    color: #ffffff;
+    background-color: red;
+}
+
+.pagecontent ul {
+    display: block;
+}
+
+/**版权信息**/
+
+.copy_right {
+    width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+    clear: both;
+}
+
+.copyright_content {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.copy_right li {
+    list-style-type: none;
+    float: left;
+    width: 200px;
+    background: url(../img/line.png) no-repeat right center; /*这个图片水平方向上靠右 垂直居中*/
+    text-align: center; /*li 中的文字水平方向上居中*/
+    line-height: 30px;
+    font-family: 微软雅黑;
+}
+
+.copyright_content a {
+    text-decoration: none;
+    color: #999999;
+    font-size: 18px;
+}
+
+.copyright_content li ul li a {
+    font-size: 14px;
+}
+
+/**右边**/
+
+.rightcontent {
+    width: 243px;
+
+    float: right;
+}
+.rightcontenttop{
+    background-color: #ffffff;
+}
+
+.sideprogress{
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding: 10px 10px 5px;
+    border-bottom: 1px solid #efefef;
+    overflow: hidden;
+
+}
+.preline{
+    width: 228px;
+    height: 10px;
+    background-color: #FDE0DC;
+    border-radius: 5px;
+}
+
+.preline span{
+    height: 10px;
+    display: inline-block;
+    background-color: #E84E40;
+    border-radius: 5px;
+    position: relative;
+    left: 0px;
+    top: -9px;
+    z-index: 10;
+}
+
+.rightcontent a{
+    text-decoration: none;
+}
+.adsoft{
+    border-bottom: 1px solid #efefef;
+}
+.adsoft:hover{
+    cursor: pointer;
+    background-color: #e6d19d;
+}
+
+.icon-phone{
+    width: 42px;
+    height: 70px;
+    display: inline-block;
+    background-image: url("../img/statistics-right.png");
+    background-size: 850px;
+    left: 15px;
+    top: 15px;
+}
+
+.icon-juan{
+    width: 42px;
+    height: 70px;
+    display: inline-block;
+    background-image: url("../img/statistics-right.png");
+    background-size: 850px;
+    left: 15px;
+    top: 15px;
+    margin-left: 5px;
+    margin-top: 15px;
+    background-position: -142px -16px;
+}
+.icon-brow{
+    width: 42px;
+    height: 40px;
+    display: inline-block;
+    left: 15px;
+    top: 15px;
+    margin-left: 5px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    background-image: url("../img/bq_plug.png") ;
+    background-position: 0px 0px;
+    background-size: 100%;
+}
+
+.apptitle{
+    left: 70px;
+    color: #333;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.app{
+    margin-top: 10px;
+}
+.apptitleem {
+    color: #fff;
+    font-size: 12px;
+    background-color: #dd2727;
+    padding: 0px 3px 2px;
+    font-style: normal;
+    margin-left: 15px;
+    display: inline-block;
+}
+.apptitles2{
+    left: 70px;
+    color: #999;
+    font-size: 14px;
+    margin-left: 10px;
+
+}
+
+.goodsort ,.hottype{
+    margin-top: 42px;
+    background-color: #ffffff;
+}
+.sorttitlearea{
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    border-bottom: 1px solid #f2f2f2;
+    font-family: 微软雅黑;
+
+
+}
+.hot{
+    color: #fff;
+    font-size: 14px;
+    background-color: #dd2727;
+    padding: 0px 4px 0px 4px;
+    line-height: 30px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    float: left;
+}
+.sortgoodarea{
+
+}
+.more{
+
+    float: right;
+    font-size: 12px;
+    color: #999999;
+}
+.sorttitlearea a:link,.sorttitlearea a:visited{
+    text-decoration: none;
+    color: #999999;
+}
+.sorttitlearea a:hover, .sorttitlearea a:active{
+    text-decoration: none;
+    color: red;
+}
+.num1{
+    color: #fff;
+    font-size: 14px;
+    background-color: #dd2727;
+    padding: 0px 7px;
+    margin-right: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 32px;
+}
+
+.num4{
+    color: #fff;
+    font-size: 14px;
+    background-color: #e68f7d;
+    padding: 0px 7px;
+    margin-right: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 32px;
+}
+
+.num10{
+    color: #fff;
+    font-size: 14px;
+    background-color: #e68f7d;
+    padding: 0px 5px;
+    margin-top: 5px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 32px;
+}
+
+.sortgooditems ul{
+    width: 100%;
+    list-style: none;
+    font-family: 'SimSun';
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 0;
+    padding: 5px 0 10px 0;
+}
+.itemdesc{
+    line-height: 16px;
+    float: left;
+    margin-left: 10px;
+    font-size: 12px;
+    max-width: 140px;
+    word-break: break-all;
+    font-family: "Microsoft YaHei";
+    font-weight: lighter;
+    color: #666;
+}
+.itemdesc a{
+    color: #333333;
+}
+.num2{
+    color: red;
+    margin-left: 5px;
+}
+.sortgooditems ul li{
+    padding: 8px 13px;
+}
+
+.sortgooditems ul li:hover{
+    background-color: #f2f2f2;
+}
+
+
+/*直达顶部*/
+.gotoarea{
+    position: fixed;
+    right: 0;
+    bottom: 150px;
+    z-index: 10000;
+}
+.gotoarea img:hover{
+    cursor: pointer;
+}
+
+/*网站导航*/
+
+.imgcontent{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.webitems img:hover {
+
+    background-color: #e5e5e5;
+
+}
+
+
+
+
+
+
